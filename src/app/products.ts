@@ -13,6 +13,11 @@ export const products = [
     name: 'Phone Standard',
     price: 299,
     description: ''
+  },
+  {
+    name: 'Xiaomi Mi A2',
+    price: 299,
+    description: 'Global version'
   }
 ];
 
