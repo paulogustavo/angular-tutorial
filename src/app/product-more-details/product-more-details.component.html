@@ -1,0 +1,12 @@
+<h2>
+ Product especific details
+</h2>
+
+<div *ngIf="product">
+  <p>
+  {{product.name}} is an awesome device. You can buy it for {{ product.price}} and you can find more details about it below:
+  </p>
+  <p>
+    <em>{{product.description}}</em>
+  </p>
+</div>
